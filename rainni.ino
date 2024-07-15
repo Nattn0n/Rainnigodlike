@@ -1,9 +1,5 @@
 #define BLYNK_PRINT Serial
 
-// #define BLYNK_TEMPLATE_ID "TMPL6sbM848m9"
-// #define BLYNK_TEMPLATE_NAME "Blynk Car"
-// #define BLYNK_AUTH_TOKEN "WrKnIEFJQmFQtq3YgXS8mWoU_QOKNXaL"
-
 #define BLYNK_TEMPLATE_ID   "TMPxxxxxx"
 #define BLYNK_TEMPLATE_NAME "Device"
 #define BLYNK_AUTH_TOKEN    "YourAuthToken"
@@ -19,8 +15,8 @@ int sw1, sw2;
 #define dirPin 26   //DIR
 #define stepPin 25  //PUL
 #define enPin 27    //EN
-#define rainPin 18  //Portฝนจะใช้Portไหนเปลี่ยนเอาเด้อ
-#define ss 5        //Portฝนจะใช้Portไหนเปลี่ยนเอาเด้อ
+#define rainPin 18  //Portฝนจะใช้Portไหน
+#define ss 5        //Portฝนจะใช้Portไหน
 
 
 void setup() {
